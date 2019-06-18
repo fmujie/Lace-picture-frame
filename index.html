@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: black;
+    }
+
+    img:hover {
+        transform: scale(1.5) rotate(15deg);
+        box-shadow: 10px 10px 15px #ccc;
+    }
+
+    img {
+        position: absolute;
+        padding: 10px;
+        top: 200px;
+        left: 200px;
+        background-color: #fff;
+        border: none;
+        border-radius: 6px;
+        width: 240px;
+        height: 160px;
+        background: radial-gradient(transparent 0px, transparent 4px, white 4px, white);
+        background-size: 20px 20px;
+        background-position: 10px 10px;
+        animation-name: roting;
+        transition: all 1s;
+    }
+</style>
+
+<body>
+    <img class="img1" src="./images/1.jpg" alt="">
+</body>
+
+</html>
